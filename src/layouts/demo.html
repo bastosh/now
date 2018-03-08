@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foundation for Sites</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600,700" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="{{root}}assets/vendors/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{root}}assets/css/app.css">
+    <link rel="stylesheet" href="{{root}}assets/vendors/css/demo.css">
+  </head>
+
+  <body class="index-page">
+
+    {{> body}}
+
+    <script src="{{root}}assets/vendors/js/core/jquery.3.2.1.min.js"></script>
+    <script src="{{root}}assets/vendors/js/core/popper.min.js"></script>
+    <script src="{{root}}assets/vendors/js/core/bootstrap.min.js"></script>
+    <script src="{{root}}assets/vendors/js/plugins/moment.min.js"></script>
+    <script src="{{root}}assets/vendors/js/plugins/bootstrap-switch.js"></script>
+    <script src="{{root}}assets/vendors/js/plugins/bootstrap-tagsinput.js"></script>
+    <script src="{{root}}assets/vendors/js/plugins/bootstrap-selectpicker.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
+    <script src="{{root}}assets/vendors/js/plugins/jasny-bootstrap.min.js"></script>
+    <script src="{{root}}assets/vendors/js/plugins/nouislider.min.js"></script>
+    <script src="{{root}}assets/vendors/js/plugins/bootstrap-datetimepicker.min.js"></script>
+    <script src="{{root}}assets/vendors/js/now-ui-kit.js"></script>
+    <script src="{{root}}assets/js/app.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            // the body of this function is in assets/js/now-ui-kit.js
+            nowuiKit.initSliders();
+        });
+    </script>
+  </body>
+</html>
